@@ -1,3 +1,4 @@
+import 'explorer';
 import { store, toggleSideDock } from './stores/local-state';
 
 const sideDockElems = document.querySelectorAll('side-dock');

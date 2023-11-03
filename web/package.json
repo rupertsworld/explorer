@@ -1,0 +1,22 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "observable-element": "^0.1.10",
+    "store-thing": "^0.1.5",
+    "uhtml": "^3.2.2"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0"
+  }
+}

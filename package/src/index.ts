@@ -15,3 +15,11 @@ export function definePlugin(
   console.log('Plugin defined:', id);
   document.dispatchEvent(new Event('plugin-connected'));
 }
+
+declare global {
+  interface Window {
+    plugins: {
+      [key: string]: Plugin;
+    };
+  }
+}

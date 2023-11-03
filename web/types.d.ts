@@ -1,4 +1,4 @@
-import { Plugin } from './web/plugins';
+import { Plugin } from 'explorer';
 
 declare module '*.module.css';
 

@@ -1,0 +1,17 @@
+{
+  "name": "explorer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "scripts": {
+    "dev": "nodemon --exec tsc",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  }
+}

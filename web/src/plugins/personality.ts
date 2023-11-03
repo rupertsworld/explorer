@@ -1,5 +1,5 @@
 import { ObservableElement } from 'observable-element';
-import { Plugin, definePlugin } from '../plugins';
+import { Plugin, definePlugin } from 'explorer';
 
 class PersonalityPlugin extends Plugin {
   personalityString = 'You are very sad.';
