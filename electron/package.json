@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/main.js",
   "scripts": {
-    "start": "tsc && electron"
+    "dev": "tsc && electron ."
   },
   "author": "",
   "license": "ISC",
