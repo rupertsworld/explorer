@@ -1,0 +1,25 @@
+{
+  "name": "explorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "vite web/",
+    "sync-plugins": "cp -r plugins dist/plugins",
+    "electron": "tsc && electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "observable-element": "^0.1.9",
+    "store-thing": "^0.1.5",
+    "uhtml": "^3.2.2"
+  },
+  "devDependencies": {
+    "electron": "^27.0.2",
+    "electron-is-dev": "^2.0.0",
+    "electron-packager": "^17.1.2",
+    "ts-node": "^10.9.1",
+    "vite": "^4.5.0"
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explorer</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./main.ts" type="module"></script>
+    <script src="./plugins/index.ts" type="module"></script>
+    <script src="/plugins/index.js" type="module"></script>
+  </head>
+  <body>
+    <title-bar>
+      <side-dock side="left" open></side-dock>
+      <div class="inner">
+        <button type="button" id="side-dock-toggle">Toggle Sidebar</button>
+      </div>
+    </title-bar>
+    <main>
+      <side-dock side="left" open>
+        <div class="inner">
+          <extension-view> </extension-view>
+        </div>
+      </side-dock>
+      <messages-view>
+        <messages-list></messages-list>
+        <input-view>
+          <textarea rows="1"></textarea>
+        </input-view>
+      </messages-view>
+    </main>
+  </body>
+</html>
