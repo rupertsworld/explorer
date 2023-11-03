@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ES6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "declaration": true,
+    "noImplicitAny": false,
+    "outDir": "dist"
+  },
+  "include": ["./src", "global.d.ts"],
+  "exclude": ["./dist"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "plugins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src/ --exec 'npm run build'",
+    "build": "node esbuild.config.mjs && npm run copy-files",
+    "copy-files": "rm -r ../web/src/public/plugins && cp -r dist/ ../web/src/public/plugins"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "observable-element": "^0.1.10"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.5",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  }
+}
